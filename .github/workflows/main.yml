@@ -34,8 +34,8 @@ jobs:
       - name: Creating Build
         run: yarn build
       - name: Install Surge
-        run: npm install --global surge
+        run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./build http://saifullahamin_reactapp2.surge.sh/ -- token ${{secrets.SURGE_TOKEN}} 
+        run: surge ./build http://saifullahamin_reactapp2.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
 
       
