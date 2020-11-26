@@ -8,7 +8,7 @@ function App() {
       <hr />
       <ChildApp propsVal="Saifullah" anotherPropsVal="Saifullah Amin"/>
       <ChildApp propsVal="Mohsin" anotherPropsVal="Mohsin Khalid"/>
-      <ChildApp propsVal="Aamir" anotherPropsVal="Aaamir Pinger"/>
+      <ChildApp propsVal="Aamir" anotherPropsVal="Aamir Pinger"/>
     </div>
   );
 }
