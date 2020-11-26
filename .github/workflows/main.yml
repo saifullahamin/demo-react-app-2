@@ -30,7 +30,7 @@ jobs:
       - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
-          cmd:  install
+          cmd: install
       - name: Creating Build
         run: build yarn
       - name: Install Surge
